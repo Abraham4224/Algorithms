@@ -1,4 +1,4 @@
-
+//This is the Weighted Quick Union, an improvement from the Quick Union
 public class WQuickUnionUF {
     private int[] id;
     private int[] size; 
