@@ -1,3 +1,4 @@
+//An improvement to the algorithm Weighted Quick Union
 public class WeightedQuickUnionWithPathCompressionUF {
     private int[] id;
     private int[] size;
