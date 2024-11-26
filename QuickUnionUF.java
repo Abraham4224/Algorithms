@@ -1,3 +1,5 @@
+//Quick Union is a lazy approach to the union-find problem that represents each component as a tree, 
+//where each node points to its parent, and unions are performed by connecting the roots of two trees.
 public class QuickUnionUF {
 	private int[] id;
 	
