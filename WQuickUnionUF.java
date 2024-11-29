@@ -1,4 +1,5 @@
 //This is the Weighted Quick Union, an improvement from the Quick Union
+//Weighted Quick Union is an optimized version of Quick Union that connects the smaller tree to the root of the larger tree to keep the tree height minimal, improving efficiency.
 public class WQuickUnionUF {
     private int[] id;
     private int[] size; 
