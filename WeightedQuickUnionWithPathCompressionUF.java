@@ -1,4 +1,6 @@
 //An improvement to the algorithm Weighted Quick Union
+//Weighted Quick Union with Path Compression is an enhanced union-find algorithm that combines tree size balancing with path compression, 
+//flattening the structure by making nodes point directly to the root during find operations for faster queries.
 public class WeightedQuickUnionWithPathCompressionUF {
     private int[] id;
     private int[] size;
